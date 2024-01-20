@@ -10,7 +10,7 @@ function Home() {
         <div className='left-section' id="content">
           <h1>Hello World!<br />
            React learning is lovely and I didnt know it was this easy <br />
-           I also leant some new things that I should'nt focus on past knowledge <br />
+           I also leant some new things that I shouldn't focus on past knowledge <br />
            that I should also learn to read always
         </h1>
         <div className='btnn'>Get Started</div>
