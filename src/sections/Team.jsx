@@ -4,6 +4,8 @@ import '../App.css'
 
 function Team() {
  
+
+  
   return (
       <>
            <div className='section'>
