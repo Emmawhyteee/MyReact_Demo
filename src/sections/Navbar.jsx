@@ -16,7 +16,8 @@ function Navbar() {
   return (
     <>
 
-<div id="myNav" className="overlay">
+      <div id="myNav" className="overlay">
+        {/* mobile navbar */}
           <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>×</a>
           <div className="overlay-content">
           <Link to="/"><a className='active'>Home</a></Link>
@@ -28,7 +29,8 @@ function Navbar() {
         </div>
 
 
-          <div className='fx1'>
+      <div className='fx1'>
+        {/* desktop navbar */}
               <div className='leftnavbar'>      
               <a>Logo</a>   
               </div>

@@ -19,6 +19,7 @@ function Home() {
        <img src={img1} alt='phone-view' height='500px' />
         </div>
       </div>
+
     </>
   )
 }
