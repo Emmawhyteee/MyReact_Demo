@@ -1,8 +1,7 @@
-body{
+body {
   margin: 0;
-   background-image: linear-gradient( to right,
-  black, rgb(245, 126, 82), black);
-  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, black, rgb(245, 126, 82), black);
+  font-family: "Poppins", sans-serif;
 }
 
 /* this is a css to change the scroll style*/
@@ -19,7 +18,6 @@ body{
   background: #555;
 }
 
-
 /* this is the styling for the responsive dropdown navbar*/
 .overlay {
   height: 0%;
@@ -34,7 +32,7 @@ body{
   transition: 0.5s;
 }
 @media screen and (max-width: 767px) {
-  .overlay{
+  .overlay {
     width: 100%;
   }
 }
@@ -46,7 +44,7 @@ body{
   margin-top: 0px;
   margin-left: 30px;
 }
-.text2{
+.text2 {
   margin-left: 30px;
 }
 
@@ -104,56 +102,55 @@ spann {
   }
 }
 
-.fx1{
+.fx1 {
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient( to right,
-  black, rgb(29, 29, 29), black);
+  background-image: linear-gradient(to right, black, rgb(29, 29, 29), black);
   color: aliceblue;
   height: 60px;
 }
-a{
+a {
   text-decoration: none;
 }
 
-.centernavbar{
+.centernavbar {
   margin-top: 15px;
 }
 
 /* this code to hide the links on the center navbar and the get started button*/
 @media screen and (max-width: 767px) {
-  .centernavbar{
+  .centernavbar {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
-  .btn{
+  .btn {
     display: none;
   }
 }
-.centernavbar a{
+.centernavbar a {
   font-size: 19px;
   padding: 10px;
   color: white;
 }
-.centernavbar a:hover{
+.centernavbar a:hover {
   border-bottom: 2px solid orangered;
 }
-.leftnavbar{
+.leftnavbar {
   margin-top: 15px;
   font-size: 19px;
 }
 /* i aldo added this code to shif the lodo to the left */
 @media screen and (max-width: 767px) {
-  .leftnavbar{
+  .leftnavbar {
     margin-left: -40px;
   }
 }
-.rightnavbar{
+.rightnavbar {
   margin-top: 15px;
   font-size: 19px;
 }
-.active{
+.active {
   border-bottom: 2px solid orangered;
 }
 .btn {
@@ -162,7 +159,7 @@ a{
   border-radius: 5px;
   padding: 5px 15px;
 }
-.btn:hover{
+.btn:hover {
   padding: 5px 20px;
 }
 
@@ -171,23 +168,23 @@ a{
   background-color: orangered;
   color: white;
   border-radius: 5px;
-  padding:10px 15px;
-  width: 250px
+  padding: 10px 15px;
+  width: 250px;
 }
-.btnn:hover{
+.btnn:hover {
   padding: 10px 20px;
 }
 
-.section{
+.section {
   color: white;
   display: flex;
   justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* Flex direction column is used to remove fex on mobile to make it responsive */
 @media screen and (max-width: 767px) {
-  .section{
+  .section {
     flex-direction: column;
     align-items: center;
   }
@@ -199,31 +196,31 @@ a{
   margin-top: 40px;
 }
 @media screen and (max-width: 767px) {
-  .left-section{
-width: 300px;
-margin-left: 0px;
-margin-top: -20px;
-font-size: 12px;
+  .left-section {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: -20px;
+    font-size: 12px;
   }
 }
-.right-section{
+.right-section {
   margin-top: -60px;
 }
 @media screen and (max-width: 767px) {
-  .right-section{
-margin-top: 20px;
+  .right-section {
+    margin-top: 20px;
   }
 }
 
-#content{
+#content {
   animation: content;
   animation-duration: 2s;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
   animation-delay: 1s;
   position: relative;
   opacity: 0;
 }
-#content1{
+#content1 {
   animation: content2;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -232,66 +229,76 @@ margin-top: 20px;
   opacity: 0;
 }
 
-@keyframes content{
-  0% {left: -1000px;}
-  100% {left: 0px; opacity: 1;}
+@keyframes content {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
 }
-@keyframes content2{
-  0% {right: -1000px;}
-  100% {right: 0px; opacity: 1;}
+@keyframes content2 {
+  0% {
+    right: -1000px;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
 }
 
-.about{
+.about {
   text-align: center;
   color: white;
 }
 
-@media screen and (max-width:767px) {
-  .Abt1 img{
+@media screen and (max-width: 767px) {
+  .Abt1 img {
     width: 350px;
   }
 }
-.abt_mum{
+.abt_mum {
   display: flex;
   justify-content: space-around;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
 }
-@media screen and (max-width:767px) {
-  .abt_mum{
+@media screen and (max-width: 767px) {
+  .abt_mum {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.abt_L{
+.abt_L {
   width: 500px;
   box-shadow: 0px 4px 6px black;
   padding: 20px;
   text-align: left;
 }
-@media screen and (max-width:767px) {
-  .abt_L{
+@media screen and (max-width: 767px) {
+  .abt_L {
     width: 350px;
   }
 }
 
- .abt_R{
+.abt_R {
   width: 500px;
   box-shadow: 0px 4px 6px black;
   padding: 20px;
   text-align: left;
 }
 
-@media screen and (max-width:767px) {
-  .abt_R{
+@media screen and (max-width: 767px) {
+  .abt_R {
     width: 350px;
     margin-top: 20px;
   }
 }
 
-#content3{
+#content3 {
   animation: content3;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -299,12 +306,17 @@ margin-top: 20px;
   position: relative;
   opacity: 0;
 }
-@keyframes content3{
-  0% {top: -1000px;}
-  100% {top: 0px; opacity: 1;}
+@keyframes content3 {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
 }
 
-#left1{
+#left1 {
   animation: chi;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -312,7 +324,7 @@ margin-top: 20px;
   position: relative;
   opacity: 0;
 }
-#right1{
+#right1 {
   animation: chichi;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -321,13 +333,82 @@ margin-top: 20px;
   opacity: 0;
 }
 
-@keyframes chi{
-  0% {left: -1000px;}
-  100% {left: 0px; opacity: 1;}
+@keyframes chi {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
 }
 
-@keyframes chichi{
-  0% {right: -1000px;}
-  100% {right: 0px; opacity: 1;}
+@keyframes chichi {
+  0% {
+    right: -1000px;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
 }
 
+.Team_L {
+  color: white;
+  text-align: left;
+  width: 990px;
+  padding: 0 20px;
+  margin-left: 20px;
+}
+.Team_Mum {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#left_T{
+  animation: team1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  position: relative;
+  opacity: 0;
+}
+
+#center_T{
+  animation: team2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  position: relative;
+  opacity: 0;
+}
+
+#Right_T{
+  animation: team3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  position: relative;
+  opacity: 0;
+}
+
+@keyframes team1 {
+  0%{left:-1000px;}
+  100%{left:0px; opacity:1;}  
+}
+
+@keyframes team2 {
+  0%{bottom:-1000px;}
+  100%{bottom:0px; opacity:1;}  
+}
+
+@keyframes team3 {
+  0%{right:-1000px;}
+  100%{right:0px; opacity:1;}  
+}
+text{
+  color: rgb(226, 223, 223);
+  text-align: center;
+  padding-left: 75px;
+}
