@@ -179,7 +179,7 @@ a {
   color: white;
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 /* Flex direction column is used to remove fex on mobile to make it responsive */
@@ -366,7 +366,7 @@ a {
   justify-content: space-around;
 }
 
-#left_T{
+#left_T {
   animation: team1;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -375,7 +375,7 @@ a {
   opacity: 0;
 }
 
-#center_T{
+#center_T {
   animation: team2;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -384,7 +384,7 @@ a {
   opacity: 0;
 }
 
-#Right_T{
+#Right_T {
   animation: team3;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -394,30 +394,47 @@ a {
 }
 
 @keyframes team1 {
-  0%{left:-1000px;}
-  100%{left:0px; opacity:1;}  
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
 }
 
 @keyframes team2 {
-  0%{bottom:-1000px;}
-  100%{bottom:0px; opacity:1;}  
+  0% {
+    bottom: -1000px;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
 }
 
 @keyframes team3 {
-  0%{right:-1000px;}
-  100%{right:0px; opacity:1;}  
+  0% {
+    right: -1000px;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
 }
-text{
+text {
   color: rgb(226, 223, 223);
   text-align: center;
   padding-left: 75px;
 }
+
 @media screen and (max-width: 767px) {
-  .Team_Mum{
+  .Team_Mum {
     flex-direction: column;
     padding: 30px;
   }
-  .Team_L{
+
+  .Team_L {
     max-width: 300px;
   }
 }
