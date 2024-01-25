@@ -422,12 +422,14 @@ a {
     opacity: 1;
   }
 }
+
 text {
   color: rgb(226, 223, 223);
   text-align: center;
   padding-left: 75px;
 }
 
+/* making the Team page Responsive */
 @media screen and (max-width: 767px) {
   .Team_Mum {
     flex-direction: column;
