@@ -18,7 +18,7 @@ function Team() {
           {/* i tried using anything here as a tag,
           and it still worked when i called it in css */}
           <img src={img_T} alt="Team_member" width={'250px'} /> <br />
-         <text> M.D</text>
+         <text> Manager</text>
         </div>
         <div id='center_T'>
           <img src={img_T} alt="Team_member" width={'250px'} /> <br />
