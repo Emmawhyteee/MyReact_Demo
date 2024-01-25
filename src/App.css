@@ -412,3 +412,12 @@ text{
   text-align: center;
   padding-left: 75px;
 }
+@media screen and (max-width: 767px) {
+  .Team_Mum{
+    flex-direction: column;
+    padding: 30px;
+  }
+  .Team_L{
+    max-width: 300px;
+  }
+}
